@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <div class="box" id="box">
+        <div class="form">
+            <form action="" id="signIn">
+                <h2>Sign in</h2>
+                <div class="inputBox">
+                    <input type="text" required="required">
+                    <span>Username</span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input type="password" required="required">
+                    <span>Password</span>
+                    <i></i>
+                </div>
+                <div class="links">
+                    <a onclick="forgetPassword()">Forget Password</a>
+                    <a onclick="signUp()">Sign up</a>
+                </div>
+                <input type="submit" value="Login">
+            </form>
+            <form action="" id="forgetPassword">
+                <h2>Forget Password</h2>
+                <div class="inputBox">
+                    <input type="text" required="required">
+                    <span>Username</span>
+                    <i></i>
+                </div>
+                <div class="links">
+                    <a onclick="signIn()">Sign in</a>
+                    <a onclick="signUp()">Sign up</a>
+                </div>
+                <input type="submit" value="Reset">
+            </form>
+            <form action="" id="signUp">
+                <h2>Sign Up</h2>
+                <div class="inputBox">
+                    <input type="text" required="required">
+                    <span>Username</span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required">
+                    <span>Email</span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input type="password" required="required">
+                    <span>Password</span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input type="password" required="required">
+                    <span>Confirm Password</span>
+                    <i></i>
+                </div>
+                <div class="links">
+                    <a onclick="forgetPassword()">Forget Password</a>
+                    <a onclick="signIn()">Sign in</a>
+                </div>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
